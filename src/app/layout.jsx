@@ -14,10 +14,10 @@ export const metadata = {
   authors: [{ name: "Stefanus Dwi Christianto" }],
 
   openGraph: {
-    title: "STEFANUS | Fullstack Developer",
-    description: "Merakit aplikasi web modern dari hulu ke hilir.",
-    url: "",
-    siteName: "Portofolio Stefanus",
+    title: "Stefanus Dwi Christianto | Fullstack Developer",
+    description: "Fullstack Developer - Logic to Pixels.",
+    url: "https://stefanusdwichristianto.my.id",
+    siteName: "Stefanus Dwi Christianto | Fullstack Developer",
     images: [
       {
         url: "https://stefanusdwichristianto.my.id/og-image.png",
