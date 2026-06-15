@@ -35,6 +35,10 @@ export const metadata = {
     description: "Merakit aplikasi web modern dari hulu ke hilir.",
     images: ["https://stefanusdwichristianto.my.id/og-image.png"],
   },
+
+  verification: {
+    google: "8LPCjF31Pb1Tbscpsd0vJAR-MfX-2AfDnaI50W2Wgi4",
+  }
 };
 
 export default function RootLayout({ children }) {
