@@ -6,7 +6,7 @@ import SplashWrapper from "../components/SplashWraper";
 import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata = {
-  title: "STEFANUS | Fullstack Developer",
+  title: "Stefanus Dwi Christianto | Fullstack Developer",
   description: "Portofolio profesional Stefanus, seorang Fresh Graduate Fullstack Developer. Logic to Pixels.",
   
   keywords: ["Stefanus", "Frontend Developer", "Fullstack Developer", "Portofolio IT", "ReactJS", "NextJS", "Fresh Graduate"],
@@ -32,7 +32,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "STEFANUS | Fullstack Developer",
+    title: "Stefanus Dwi Christianto | Fullstack Developer",
     description: "Merakit aplikasi web modern dari hulu ke hilir.",
     images: ["https://stefanusdwichristianto.my.id/og-image.png"],
   },

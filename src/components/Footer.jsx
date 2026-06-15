@@ -46,7 +46,7 @@ function Footer() {
                     </li>
                 </ul>
                 <p className="text-xs md:text-sm font-bold text-tertiary tracking-widest mt-4 md:mt-0 opacity-80">
-                    &copy; 2026 STEFANUS - Build With Confidence!
+                    &copy; 2026 Stefanus Dwi Christianto - Build With Confidence!
                 </p>
 
             </div>
