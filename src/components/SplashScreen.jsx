@@ -23,7 +23,6 @@ function SplashScreen({ onFinish }) {
         <motion.div
             key="splash"
             initial={{ y: 0 }}
-            // Animasi exit sekarang dijamin berjalan 100% lancar
             exit={{ 
                 y: "-100%", 
                 transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] } 
@@ -32,7 +31,7 @@ function SplashScreen({ onFinish }) {
         >
             <div className="flex items-center gap-4">
                 <div className="w-4 h-4 rounded-full bg-[#FFD43B] animate-pulse"></div>
-                <h1 className="text-5xl md:text-7xl font-black text-[#FFD43B] font-heading tracking-widest uppercase">
+                <h1 className="text-5xl md:text-7xl sm:text-xl font-black text-[#FFD43B] font-heading tracking-widest uppercase">
                     {greetings[index]}
                 </h1>
             </div>

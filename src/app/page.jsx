@@ -318,42 +318,54 @@ function Home() {
             </section>
 
             {/* Contact */}
-            <section id='Contact' className="py-20 md:py-36 overflow-hidden">
+            <section id='Contact' className="py-20 md:py-36 px-4 md:px-8 overflow-hidden">
+                {/* PERBAIKAN 1: Tambahkan w-full, kurangi max-w, dan perbesar padding dalam (p-8 md:p-12) */}
                 <motion.div 
                     initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={fadeInUp}
-                    className="flex flex-col items-center justify-center px-4 md:px-6 max-w-7xl mx-auto gap-2 p-6 md:p-8 bg-quarternary border-4 border-tertiary shadow-[4px_4px_0px_0px_#000]"
+                    className="flex flex-col items-center justify-center w-full max-w-5xl mx-auto gap-4 md:gap-8 p-8 md:p-16 bg-quarternary border-4 border-tertiary shadow-[6px_6px_0px_0px_#000] md:shadow-[12px_12px_0px_0px_#000]"
                 >
-                    <div className="flex flex-col max-w-5xl mx-auto gap-4">
-                        <h2 className="text-white text-3xl md:text-5xl uppercase text-center font-bold tracking-wide font-heading leading-tight">punya proyek menarik atau sekadar ingin berdiskusi terkait website?</h2>
-                        <p className="text-base md:text-xl text-white text-center font-semibold tracking-wide leading-relaxed font-Mono">Mari kita buat sesuatu yang nyata.</p>
+                    <div className="flex flex-col w-full mx-auto gap-4">
+                        {/* PERBAIKAN 2: Turunkan ukuran teks HP ke text-2xl dan sesuaikan line-height (leading) */}
+                        <h2 className="text-white text-2xl md:text-5xl uppercase text-center font-black tracking-wide font-heading leading-snug md:leading-tight">
+                            Punya proyek menarik atau sekadar ingin berdiskusi terkait website?
+                        </h2>
+                        <p className="text-sm md:text-xl text-white text-center font-bold tracking-wide leading-relaxed font-Mono">
+                            Mari kita buat sesuatu yang nyata.
+                        </p>
                     </div>
-                    <div className="px-8 md:px-12 py-3 md:py-4 mt-6 bg-white border-4 border-tertiary shadow-[4px_4px_0px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#000] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all duration-150 ease-out cursor-pointer text-center">
-                        <a href="https://wa.me/6285162910560?text=Halo%20Stefanus" target="_blank" rel="noopener noreferrer" className="text-lg md:text-2xl font-bold text-tertiary tracking-widest uppercase font-Isi">Kolaborasi Sekarang</a>
+                    
+                    {/* PERBAIKAN 3: Buat tombol w-full di HP, dan w-auto di PC */}
+                    <div className="w-full md:w-auto mt-4 md:mt-6 bg-white border-4 border-tertiary shadow-[4px_4px_0px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#000] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all duration-150 ease-out cursor-pointer text-center">
+                        {/* block w-full memastikan area klik memenuhi seluruh tombol */}
+                        <a href="https://wa.me/6285162910560?text=Halo%20Stefanus" target="_blank" rel="noopener noreferrer" className="block w-full px-6 md:px-12 py-3 md:py-4 text-base md:text-2xl font-black text-tertiary tracking-widest uppercase font-Isi">
+                            Kolaborasi Sekarang
+                        </a>
                     </div>
-                    {/* Responsif: Menambahkan flex-wrap agar tidak bertabrakan di HP */}
-                    <div className="flex flex-wrap pt-8 md:pt-10 items-center justify-center gap-4 md:gap-6 font-Isi">
-                        <div className='flex items-center justify-center gap-1 border-b-3 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanusdwichristianto@gmail.com&su=Peluang%20Kolaborasi%20-%20Stefanus" target="_blank" rel="noopener noreferrer" className="flex gap-1 items-center">
-                                <AiOutlineMail size={20} className="md:w-6 md:h-6" stroke='currentColor' strokeWidth="20"/>
-                                <p className="font-bold text-sm md:text-base">EMAIL</p>
+                    
+                    {/* PERBAIKAN 4: Atur gap-x (kiri-kanan) dan gap-y (atas-bawah) agar lebih rapi saat turun baris */}
+                    <div className="flex flex-wrap mt-6 md:mt-10 items-center justify-center gap-x-6 gap-y-4 font-Isi w-full">
+                        <div className='flex items-center justify-center border-b-2 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanusdwichristianto@gmail.com&su=Peluang%20Kolaborasi%20-%20Stefanus" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center">
+                                <AiOutlineMail className="w-5 h-5 md:w-6 md:h-6" stroke='currentColor' strokeWidth="20"/>
+                                <p className="font-bold text-xs md:text-base">EMAIL</p>
                             </a>
                         </div>
-                        <div className='flex items-center justify-center gap-1 border-b-3 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
-                            <a href="https://www.linkedin.com/in/stefanus-dwi-christianto/" target="_blank" rel="noopener noreferrer" className="flex gap-1 items-center">
-                                <AiOutlineLinkedin size={20} className="md:w-6 md:h-6" stroke='currentColor' strokeWidth="20" />
-                                <p className="font-bold text-sm md:text-base">LINKEDIN</p>
+                        <div className='flex items-center justify-center border-b-2 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
+                            <a href="https://www.linkedin.com/in/stefanus-dwi-christianto/" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center">
+                                <AiOutlineLinkedin className="w-5 h-5 md:w-6 md:h-6" stroke='currentColor' strokeWidth="20" />
+                                <p className="font-bold text-xs md:text-base">LINKEDIN</p>
                             </a>
                         </div>
-                        <div className='flex items-center justify-center gap-1 border-b-3 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
-                            <a href="https://github.com/StefanusssDwi" target="_blank" rel="noopener noreferrer" className="flex gap-1 items-center">
-                                <AiOutlineGithub size={20} className="md:w-6 md:h-6" stroke='currentColor' strokeWidth="20" />
-                                <p className="font-bold text-sm md:text-base">GITHUB</p>
+                        <div className='flex items-center justify-center border-b-2 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
+                            <a href="https://github.com/StefanusssDwi" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center">
+                                <AiOutlineGithub className="w-5 h-5 md:w-6 md:h-6" stroke='currentColor' strokeWidth="20" />
+                                <p className="font-bold text-xs md:text-base">GITHUB</p>
                             </a>
                         </div>
-                        <div className='flex items-center justify-center gap-1 border-b-2 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
-                            <a href="https://wa.me/6285162910560?text=Halo%20Stefanus" target="_blank" rel="noopener noreferrer"  className="flex gap-1 items-center">
-                                <AiOutlineWhatsApp size={20} className="md:w-6 md:h-6" stroke='currentColor' strokeWidth="20" />
-                                <p className="font-bold text-sm md:text-base">WHATSAPP</p>
+                        <div className='flex items-center justify-center border-b-2 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
+                            <a href="https://wa.me/6285162910560?text=Halo%20Stefanus" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center">
+                                <AiOutlineWhatsApp className="w-5 h-5 md:w-6 md:h-6" stroke='currentColor' strokeWidth="20" />
+                                <p className="font-bold text-xs md:text-base">WHATSAPP</p>
                             </a>
                         </div>
                     </div>
