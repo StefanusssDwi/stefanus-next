@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import SplashWrapper from "../components/SplashWraper";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata = {
   title: "STEFANUS | Fullstack Developer",
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
         </SplashWrapper>
+        <GoogleAnalytics gaID="G-6C90B573VQ" />
       </body>
     </html>
   );
