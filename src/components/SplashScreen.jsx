@@ -31,7 +31,7 @@ function SplashScreen({ onFinish }) {
         >
             <div className="flex items-center gap-4">
                 <div className="w-4 h-4 rounded-full bg-[#FFD43B] animate-pulse"></div>
-                <h1 className="text-5xl md:text-7xl sm:text-xl font-black text-[#FFD43B] font-heading tracking-widest uppercase">
+                <h1 className="text-2xl md:text-7xl font-black text-[#FFD43B] font-heading tracking-widest uppercase">
                     {greetings[index]}
                 </h1>
             </div>
