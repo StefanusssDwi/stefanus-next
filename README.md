@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# STEFANUS. | Neubrutalist Personal Portfolio ⚡️
 
-## Getting Started
+Portofolio interaktif yang dirancang dengan pendekatan desain **Neubrutalism**—menonjolkan antarmuka yang jujur, performan, dan secara struktural berani. Proyek ini bukan sekadar kumpulan tautan, melainkan representasi dari kompetensi IT yang solid dan fokus kuat pada *Frontend Design* yang fungsional.
 
-First, run the development server:
+Tidak ada *fade-in* lambat bergaya korporat. Hanya bayangan solid, garis tebal, dan animasi *spring* yang responsif. **Logic to pixels. Ready to deploy.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sistem ini dirakit menggunakan teknologi modern untuk memastikan kecepatan, skalabilitas, dan kemudahan *maintenance*:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* **Framework:** [React (Vite)](https://vitejs.dev/)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) *(Menggunakan pendekatan CSS-first modern)*
+* **Animation:** [Framer Motion](https://www.framer.com/motion/) *(Custom spring physics & staggered reveals)*
+* **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+* **Typography:** Syne (Heading) & Plus Jakarta Sans (Body) via Google Fonts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Neubrutalist UI:** Desain *anti-mainstream* dengan *hard-shadows*, warna berani, dan *border* tebal yang memberikan kesan mekanis.
+* **Terminal-Inspired Splash Screen:** *Loading screen* interaktif dengan sapaan multi-bahasa yang memberikan kesan kompetensi teknis sebelum masuk ke antarmuka utama.
+* **Infinite Tech Marquee:** Animasi CSS murni yang mulus (tanpa putus) untuk memamerkan *tech stack*.
+* **Snappy Animations:** Transisi *Framer Motion* yang dikonfigurasi khusus dengan efek pegas (*spring/bounce*) agar terasa lebih hidup dan responsif.
+* **100% Mobile Responsive:** Pengalaman pengguna yang dioptimalkan dengan cermat dari layar *smartphone* hingga *desktop* *ultrawide*.
