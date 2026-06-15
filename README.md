@@ -8,7 +8,7 @@ Tidak ada *fade-in* lambat bergaya korporat. Hanya bayangan solid, garis tebal, 
 
 Sistem ini dirakit menggunakan teknologi modern untuk memastikan kecepatan, skalabilitas, dan kemudahan *maintenance*:
 
-* **Framework:** [React (Vite)](https://vitejs.dev/)
+* **Framework:** [NextJS](https://nextjs.org/)
 * **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) *(Menggunakan pendekatan CSS-first modern)*
 * **Animation:** [Framer Motion](https://www.framer.com/motion/) *(Custom spring physics & staggered reveals)*
 * **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
