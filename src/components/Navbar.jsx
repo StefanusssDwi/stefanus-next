@@ -26,7 +26,7 @@ function Navbar() {
 
             {/* Desktop CTA Button */}
             <div className="hidden md:block py-2 px-6 font-Isi bg-secondary border-4 border-tertiary shadow-[4px_4px_0px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#000] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all duration-150 ease-out cursor-pointer">
-                <a href="https://wa.me/6285162910560?text=Halo%20Stefanus" target="_blank" rel="noopener noreferrer" className="text-tertiary font-bold tracking-widest text-sm uppercase">KOLABORASI SEKARANG</a>
+                <a href="https://wa.me/6285162910560?text=Halo%20Stefanus" target="_blank" rel="noopener noreferrer" className="text-tertiary font-bold tracking-widest text-sm uppercase">COLABORATE NOW</a>
             </div>
 
             {/* Mobile Hamburger Button */}

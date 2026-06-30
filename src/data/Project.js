@@ -10,8 +10,8 @@ export const projects = [
     title: "Antrian Poliklinik",
     windowName: "Antrian_Poliklinik.EXE",
     tech: ["React", "JavaScript", "Tailwind", "Express", "SQL Server"],
-    shortDesc: "Sistem antrian pasien real-time terintegrasi untuk RSK Ngesti Waluyo.",
-    longDesc: "Dibangun untuk mengatasi antrean rumah sakit yang padat, sistem ini menghubungkan antarmuka React yang responsif dengan backend Express dan database SQL Server yang tangguh. Memastikan alur data pasien tersinkronisasi tanpa delay, mengurangi waktu tunggu, dan meningkatkan efisiensi operasional staf medis secara signifikan di lingkungan production.",
+    shortDesc: "A real-time patient queue system for RSK Ngesti Waluyo",
+    longDesc: "Designed to handle high hospital queue volumes, the system integrates a responsive React frontend with an Express backend and SQL Server database. It ensures real-time data synchronization, reduces patient waiting times, and improves overall operational efficiency in production environments.",
     bgColor: "bg-white",
     textColor: "text-gray-800",
     image: AntrianPoliklinik
@@ -21,8 +21,8 @@ export const projects = [
     title: "Task Management",
     windowName: "Task_Management.EXE",
     tech: ["React", "Tailwind", "TypeScript", "AWS"],
-    shortDesc: "Aplikasi manajemen tugas berbasis web dengan arsitektur cloud skalabel.",
-    longDesc: "Dirancang untuk produktivitas maksimal. Aplikasi ini memanfaatkan ketegasan tipe data dari TypeScript untuk meminimalisir runtime error, dibalut dengan UI minimalis yang lincah dari Tailwind CSS. Infrastruktur di-deploy menggunakan layanan AWS untuk menjamin skalabilitas dan ketersediaan data secara konstan bagi pengguna.",
+    shortDesc: "A scalable cloud-based web application for task management, designed for reliability and growth.",
+    longDesc: "Designed for maximum productivity, this application leverages TypeScript’s strict type system to minimize runtime errors, combined with a lightweight, minimal UI built with Tailwind CSS. The infrastructure is deployed on AWS to ensure scalability and consistent data availability for users.",
     bgColor: "bg-red-500", 
     textColor: "text-white",
     image: TaskManagement
@@ -32,8 +32,8 @@ export const projects = [
     title: "HAKA FOTOCOPY",
     windowName: "Haka_Fotocopy.HTML",
     tech: ["React", "JavaScript", "Tailwind", "Google Analytics"],
-    shortDesc: "Landing page dinamis dengan optimasi digital marketing berbasis data.",
-    longDesc: "Bukan sekadar pamer visual. Proyek ini menggabungkan frontend development dengan analisis digital marketing. Melalui pemantauan metrik Google Analytics selama 4 minggu, tata letak dan struktur UI/UX terus dirombak dan dievaluasi untuk mengubah visitor menjadi customer, meningkatkan conversion rate secara nyata.",
+    shortDesc: "A dynamic landing page optimized for data-driven digital marketing performance.",
+    longDesc: "Not just a visual showcase, this project combines frontend development with digital marketing analytics. Over a four-week period, Google Analytics data was continuously monitored to evaluate and refine the UI/UX structure and layout, aiming to improve visitor-to-customer conversion and achieve measurable gains in conversion rate.",
     bgColor: "bg-yellow-400",
     textColor: "text-black",
     image: Haka
@@ -43,8 +43,8 @@ export const projects = [
     title: "ABC School",
     windowName: "ABC_School.HTML",
     tech: ["React", "JavaScript", "Tailwind"],
-    shortDesc: "Wajah digital institusi pendidikan dengan navigasi yang intuitif.",
-    longDesc: "Fokus utama proyek ini adalah menciptakan first-impression yang kuat dan terpercaya bagi calon siswa dan orang tua. Mengandalkan ekosistem React dan Tailwind CSS untuk membangun struktur informasi akademik yang mudah diakses, sangat responsif di perangkat mobile, dan memiliki waktu muat (load time) yang optimal.",
+    shortDesc: "A digital presence for an educational institution, designed with intuitive navigation and a clear user experience.",
+    longDesc: "The main focus of this project is to create a strong and trustworthy first impression for prospective students and parents. Built using the React ecosystem and Tailwind CSS, it delivers an accessible academic information structure, fully responsive mobile experience, and optimized load times.",
     bgColor: "bg-blue-400", // Diubah agar variatif
     textColor: "text-black",
     image: AbcSchool
@@ -54,8 +54,8 @@ export const projects = [
     title: "St. Jude's Academy",
     windowName: "St_Judes_Admin.EXE", // Disesuaikan agar penulisan aman
     tech: ["React", "JavaScript", "Tailwind", "Express", "Supabase"],
-    shortDesc: "Platform manajemen sekolah terintegrasi dengan CMS mandiri.",
-    longDesc: "Solusi end-to-end untuk administrasi akademik. Selain menyajikan portal informasi sekolah, sistem ini dilengkapi dashboard admin tertutup. Menggunakan Express dan Supabase sebagai tulang punggung arsitektur data, memungkinkan staf sekolah untuk mengelola konten, pengumuman, dan data operasional secara mandiri tanpa perlu campur tangan developer.",
+    shortDesc: "An integrated school management platform with a self-managed CMS for streamlined content and administrative control.",
+    longDesc: "An end-to-end solution for academic administration. Beyond serving as a school information portal, the system includes a secure admin dashboard. Built with Express and Supabase as the core data architecture, it enables school staff to independently manage content, announcements, and operational data without developer intervention.",
     bgColor: "bg-green-400", // Diubah agar variatif
     textColor: "text-black",
     image: StJudes

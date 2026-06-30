@@ -78,10 +78,9 @@ function Home() {
                         variants={fadeInUp} initial="hidden" animate={isHeroReady ? "visible" : "hidden"}
                         className="text-lg md:text-2xl text-gray-600 font-semibold font-Isi tracking-wide leading-relaxed max-w-2xl pt-4 md:pt-8 text-justify md:text-left"
                     >
-                        Merakit aplikasi web modern dari hulu ke hilir. Menggabungkan pemahaman desain antarmuka dengan keahlian pemrograman web untuk menciptakan pengalaman pengguna yang cepat, intuitif, dan mudah diskalakan.
+                        Building a modern web from the ground up by combining interface design and web development to deliver a fast, intuitive, and adaptable experience.
                     </motion.p>
                     
-                    {/* Responsif: Tambahkan margin auto agar ke tengah di HP */}
                     <motion.div 
                         variants={slideInRight} initial="hidden" animate={isHeroReady ? "visible" : "hidden"}
                         className="w-full max-w-sm px-6 py-2 bg-white border-4 font-Mono border-tertiary shadow-[4px_4px_0px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#000] transition-all duration-150 ease-out cursor-pointer transform: rotate-3 md:rotate-8 mx-auto md:mx-0 mt-8 md:mt-0"
@@ -122,17 +121,18 @@ function Home() {
                     <motion.div variants={fadeInUp} className="relative flex-1 w-full md:w-1/3 p-6 bg-white border-4 border-tertiary shadow-[4px_4px_0px_0px_#000] z-10 md:mr-5 transform: rotate-0 md:-rotate-3 hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
                         <div className="flex pb-4 text-tertiary"><LuFlame size={46} strokeWidth={2.5} /></div>
                         <h3 className="text-xl md:text-2xl font-black text-tertiary tracking-tight uppercase">THE ETERNAL BETA.</h3>
-                        <p className="pt-4 text-justify text-tertiary font-semibold tracking-wide leading-relaxed text-sm md:text-base">Gelar sarjana hanyalah garis start, bukan garis finish. Saya menolak sekadar menjadi pembelajar pasif. Cara terbaik untuk memahami teknologi baru bukanlah dengan menghafal dokumentasi, tapi dengan langsung merakit sistem, menabrak error, dan merombak kode. Belajar secara agresif, eksekusi secara brutal.</p>
+                        <p className="pt-4 text-justify text-tertiary font-semibold tracking-wide leading-relaxed text-sm md:text-base">There are always new technologies, new approaches, and new perspectives to explore. Therefore, learning isn&apos;t just about reading or following trends, but about taking the time to try things out, understand how they work, and then see if those approaches actually work. For me, the most meaningful learning process always happens when I actually start building something.</p>
                     </motion.div>
                     <motion.div variants={fadeInUp} className="relative flex-1 w-full md:w-1/3 p-6 bg-quarternary border-4 border-tertiary shadow-[4px_4px_0px_0px_#000] z-20 md:translate-y-8 mt-0 md:mr-5 transform: rotate-0 md:rotate-5 hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
                         <div className="flex pb-4 text-white"><LuBot size={46} strokeWidth={2.5} /></div>
                         <h3 className="text-xl md:text-2xl font-black text-white tracking-tight uppercase">CYBORG DEVELOPER.</h3>
-                        <p className="pt-4 text-justify text-white font-semibold tracking-wide leading-relaxed text-sm md:text-base">Saya tidak anti-AI, saya memanfaatkannya secara maksimal. Memakai AI sebagai co-pilot membantu saya memangkas waktu debugging dan boilerplate. Hasilnya? Saya bisa mengalihkan 100% energi dan logika pikiran saya untuk merancang arsitektur aplikasi yang lebih solid, scalable, dan memberikan hasil akhir yang jauh melampaui standar.</p>
+                        <p className="pt-4 text-justify text-white font-semibold tracking-wide leading-relaxed text-sm md:text-base">Working with AI isn&apos;t about replacing the developer—it&apos;s about extending what&apos;s possible. AI handles repetitive tasks, debugging, and boilerplate. While experience, judgment, and thoughtful decision-making continue to shape every solution. The result is a faster workflow without compromising quality.
+</p>
                     </motion.div>
                     <motion.div variants={fadeInUp} className="relative flex-1 w-full md:w-1/3 p-6 bg-primary border-4 border-tertiary shadow-[4px_4px_0px_0px_#000] z-10 md:translate-y-5 mt-0 transform: rotate-0 md:-rotate-5 hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
                         <div className="flex pb-4 text-tertiary"><LuGlobe size={46} strokeWidth={2.5} /></div>
                         <h3 className="text-xl md:text-2xl font-black text-tertiary tracking-tight uppercase">IMPACT OVER PIXELS.</h3>
-                        <p className="pt-4 text-justify text-tertiary font-semibold tracking-wide leading-relaxed text-sm md:text-base">Kode yang rapi nggak ada artinya kalau nggak memecahkan masalah. Pengalaman menangani integrasi sistem antrean medis mengajarkan saya satu hal: teknologi harus berdampak. Saya merakit frontend dan logika IT bukan sekadar supaya terlihat keren di layar komputer, tapi untuk memastikan sistem tersebut benar-benar mempermudah operasional di dunia nyata.</p>
+                        <p className="pt-4 text-justify text-tertiary font-semibold tracking-wide leading-relaxed text-sm md:text-base">Clean code means little if it doesn’t solve real problems. Working on the integration of a medical queue system highlighted a simple principle: technology needs to be used in practice, not just built in theory. Frontend and system logic development go beyond the interface, focusing instead on how the system can make real-world processes simpler and more efficient.</p>
                     </motion.div>
                 </motion.div>
             </section>
@@ -278,7 +278,7 @@ function Home() {
                                 <p className="text-quarternary uppercase font-black text-xs md:text-sm tracking-wider mb-2 font-Mono">Oktober 2025 - Januari 2026</p>
                                 <h4 className="text-xl md:text-3xl font-black text-tertiary tracking-tight uppercase leading-none font-heading">Fullstack Internship</h4>
                                 <p className="text-sm md:text-lg text-gray-800 font-bold tracking-wide mt-2 font-Mono">RSK NGESTI WALUYO</p>
-                                <p className="mt-3 md:mt-4 text-sm md:text-lg text-gray-700 font-medium tracking-wide font-Isi text-justify">Membangun sistem antrean poliklinik terintegrasi (React/Express) dan merombak arsitektur backend bridging data (Python) untuk SATU SEHAT & BPJS demi efisiensi operasional rumah sakit.</p>
+                                <p className="mt-3 md:mt-4 text-sm md:text-lg text-gray-700 font-medium tracking-wide font-Isi text-justify">Developed an integrated polyclinic queue system using React and Express, and restructured a backend data-bridging architecture in Python to integrate with SATUSEHAT and BPJS, improving overall hospital operational efficiency.</p>
                             </div>
                         </div>
                         <div className="hidden md:block w-[45%]"></div>
@@ -294,7 +294,7 @@ function Home() {
                                 <p className="text-quarternary uppercase font-black text-xs md:text-sm tracking-wider mb-2 font-Mono">September 2024 - Januari 2025</p>
                                 <h4 className="text-xl md:text-3xl font-black text-tertiary tracking-tight uppercase leading-none font-heading">Web Development & UI/UX Design</h4>
                                 <p className="text-sm md:text-lg text-gray-800 font-bold tracking-wide mt-2 font-Mono">Studi Independen at Infinite Learning</p>
-                                <p className="mt-3 md:mt-4 text-sm md:text-lg text-gray-700 font-medium tracking-wide font-Isi text-justify">Menguasai siklus pengembangan SDLC & Agile. Memimpin eksekusi Front-End (React & Tailwind) untuk proyek akhir aplikasi manajemen peternakan interaktif.</p>
+                                <p className="mt-3 md:mt-4 text-sm md:text-lg text-gray-700 font-medium tracking-wide font-Isi text-justify">Mastering the SDLC & Agile development lifecycle. Leading Front-End execution (React & Tailwind) for a final project on an interactive livestock management application.</p>
                             </div>
                         </div>
                     </div>
@@ -308,7 +308,7 @@ function Home() {
                                 <p className="text-quarternary uppercase font-black text-xs md:text-sm tracking-wider mb-2 font-Mono">September 2022 - April 2026</p>
                                 <h4 className="text-xl md:text-3xl font-black text-tertiary tracking-tight uppercase leading-none font-heading">IT College</h4>
                                 <p className="text-sm md:text-lg text-gray-800 font-bold tracking-wide mt-2 font-Mono">UNIVERSITAS AMIKOM YOGYAKARTA</p>
-                                <p className="mt-3 md:mt-4 text-sm md:text-lg text-gray-700 font-medium tracking-wide font-Isi text-justify">Lulusan baru (fresh graduate) yang siap deploy. Memadukan pemahaman logika algoritma dengan eksekusi Frontend yang presisi untuk menciptakan produk digital yang fungsional dan teruji.</p>
+                                <p className="mt-3 md:mt-4 text-sm md:text-lg text-gray-700 font-medium tracking-wide font-Isi text-justify">A fresh graduate ready to deploy, combining strong algorithmic understanding with precise frontend execution to build functional and well-tested digital products.</p>
                             </div>
                         </div>
                         <div className="hidden md:block w-[45%]"></div>
@@ -319,30 +319,25 @@ function Home() {
 
             {/* Contact */}
             <section id='Contact' className="py-20 md:py-36 px-4 md:px-8 overflow-hidden">
-                {/* PERBAIKAN 1: Tambahkan w-full, kurangi max-w, dan perbesar padding dalam (p-8 md:p-12) */}
                 <motion.div 
                     initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} variants={fadeInUp}
                     className="flex flex-col items-center justify-center w-full max-w-5xl mx-auto gap-4 md:gap-8 p-8 md:p-16 bg-quarternary border-4 border-tertiary shadow-[6px_6px_0px_0px_#000] md:shadow-[12px_12px_0px_0px_#000]"
                 >
                     <div className="flex flex-col w-full mx-auto gap-4">
-                        {/* PERBAIKAN 2: Turunkan ukuran teks HP ke text-2xl dan sesuaikan line-height (leading) */}
                         <h2 className="text-white text-2xl md:text-5xl uppercase text-center font-black tracking-wide font-heading leading-snug md:leading-tight">
-                            Punya proyek menarik atau sekadar ingin berdiskusi terkait website?
+                            Have a project idea or just want to discuss websites? Let’s connect and turn it into something real.
                         </h2>
                         <p className="text-sm md:text-xl text-white text-center font-bold tracking-wide leading-relaxed font-Mono">
-                            Mari kita buat sesuatu yang nyata.
+                            Let’s build something real.
                         </p>
                     </div>
                     
-                    {/* PERBAIKAN 3: Buat tombol w-full di HP, dan w-auto di PC */}
                     <div className="w-full md:w-auto mt-4 md:mt-6 bg-white border-4 border-tertiary shadow-[4px_4px_0px_0px_#000] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#000] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all duration-150 ease-out cursor-pointer text-center">
-                        {/* block w-full memastikan area klik memenuhi seluruh tombol */}
                         <a href="https://wa.me/6285162910560?text=Halo%20Stefanus" target="_blank" rel="noopener noreferrer" className="block w-full px-6 md:px-12 py-3 md:py-4 text-base md:text-2xl font-black text-tertiary tracking-widest uppercase font-Isi">
-                            Kolaborasi Sekarang
+                            Colaborate Now
                         </a>
                     </div>
                     
-                    {/* PERBAIKAN 4: Atur gap-x (kiri-kanan) dan gap-y (atas-bawah) agar lebih rapi saat turun baris */}
                     <div className="flex flex-wrap mt-6 md:mt-10 items-center justify-center gap-x-6 gap-y-4 font-Isi w-full">
                         <div className='flex items-center justify-center border-b-2 border-transparent hover:border-white pb-1 transition-all duration-150 cursor-pointer text-white'>
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanusdwichristianto@gmail.com&su=Peluang%20Kolaborasi%20-%20Stefanus" target="_blank" rel="noopener noreferrer" className="flex gap-2 items-center">
